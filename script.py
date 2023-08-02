@@ -75,13 +75,3 @@ for i, link in enumerate(links_video, start=1):
         print(f"Downloaded {file_name} and saved to {file_path}")
     else:
         print(f"Failed to download video: {link}")
-
-
-
-
-
-
-#estrarre content dal json e parsare il nuovo json per i vari link
-#così ce la gestiamo come il vecchio scraping ecc ecc
-#poi facciamo le varie get per foto e video.
-#poi suddividiamo post e pagine
